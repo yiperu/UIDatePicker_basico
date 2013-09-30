@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)calcularDiferenciaFecha:(id)sender;
+
+
+@property (strong, nonatomic) IBOutlet UILabel *resultadoLabel;
+
 @end

@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)calcularDiferenciaFecha:(id)sender {
+}
+- (void)viewDidUnload {
+    [self setResultadoLabel:nil];
+    [super viewDidUnload];
+}
 @end
